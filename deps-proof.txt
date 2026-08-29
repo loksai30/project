@@ -1,0 +1,6 @@
+# deps-proof: show pip-freeze or Python environment has no third-party packages
+# For demonstration, an empty requirements.txt is included and the code imports only stdlib modules.
+
+# Example (run locally):
+# python -c "import pkgutil,sys; print([m.name for m in pkgutil.iter_modules() if m.name not in sys.builtin_module_names][:20])"
+
